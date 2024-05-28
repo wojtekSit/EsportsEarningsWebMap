@@ -44,7 +44,17 @@ const layers = [
       params: { 'layers': 'EsportsEarnings:World_map2' },
       serverType: 'geoserver',
     }),
-    title: 'World_Map2',
+    title: 'World_map2',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'layers': 'EsportsEarnings:earnings_map' },
+      serverType: 'geoserver',
+    }),
+    title: 'earnings_map',
     type: 'base',
     visible: false
   }),
@@ -74,7 +84,6 @@ function changeLayer(layerTitle, visible) {
     layer.setVisible(visible);
   }
 }
-
 // Event listener for the checkboxes
 document.querySelectorAll('input[name="layer"]').forEach(checkbox => {
   checkbox.addEventListener('change', function (e) {
