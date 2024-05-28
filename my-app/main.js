@@ -7,9 +7,11 @@ import Overlay from 'ol/Overlay.js';
 import { toLonLat } from 'ol/proj.js';
 import { toStringHDMS } from 'ol/coordinate.js';
 
+
 const container = document.getElementById('popup');
 const content = document.getElementById('popup-content');
 const closer = document.getElementById('popup-closer');
+
 const overlay = new Overlay({
   element: container,
   autoPan: {
@@ -19,24 +21,35 @@ const overlay = new Overlay({
   },
 });
 
-closer.onclick = function () {
-  overlay.setPosition(undefined);
-  closer.blur();
-  return false;
-};
-
 const layers = [
   new TileLayer({
-    source: new OSM()
+    source: new OSM(),
+    title: 'OpenStreetMap',
+    type: 'base',
+    visible: true
   }),
   new TileLayer({
     source: new TileWMS({
       url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:World_map' },
+      params: { 'layers': 'EsportsEarnings:World_map' },
       serverType: 'geoserver',
     }),
+    title: 'World_Map',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'layers': 'EsportsEarnings:World_map2' },
+      serverType: 'geoserver',
+    }),
+    title: 'World_Map2',
+    type: 'base',
+    visible: false
   }),
 ];
+
 
 const map = new Map({
   target: 'map',
@@ -48,6 +61,28 @@ const map = new Map({
   })
 });
 
+closer.onclick = function () {
+  overlay.setPosition(undefined);
+  closer.blur();
+  return false;
+};
+
+// Function to change the layer visibility based on checkbox state
+function changeLayer(layerTitle, visible) {
+  const layer = layers.find(layer => layer.get('title') === layerTitle);
+  if (layer) {
+    layer.setVisible(visible);
+  }
+}
+
+// Event listener for the checkboxes
+document.querySelectorAll('input[name="layer"]').forEach(checkbox => {
+  checkbox.addEventListener('change', function (e) {
+    changeLayer(e.target.value, e.target.checked);
+  });
+});
+
+// Map Handle Single Click and display Info
 map.on('singleclick', function (evt) {
   const coordinate = evt.coordinate;
   const hdms = toStringHDMS(toLonLat(coordinate));
@@ -92,4 +127,7 @@ map.on('singleclick', function (evt) {
     .catch(error => {
       console.error('Error fetching feature info:', error);
     });
+
+  fetch(url)
+
 });
