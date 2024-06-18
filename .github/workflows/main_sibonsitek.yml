@@ -33,9 +33,9 @@ jobs:
         run: zip release.zip ./* -r
 
       - name: Upload artifact for deployment job
-        working-directory: ./my-app
         uses: actions/upload-artifact@v3
         with:
+          working-directory: ./my-app
           name: node-app
           path: release.zip
 
