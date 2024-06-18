@@ -6,14 +6,103 @@
   <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Using OpenLayers with Vite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .layer-switcher {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .layer-switcher h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .layer-switcher label {
+      display: block;
+      padding: 10px;
+      margin-bottom: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s, border 0.3s;
+    }
+
+    .layer-switcher input[type="checkbox"] {
+      display: none;
+    }
+
+    .layer-switcher input[type="checkbox"]:checked+label {
+      background: #007bff;
+      color: #fff;
+      border-color: #007bff;
+    }
+  </style>
 </head>
 
 <body>
   <div id="map" class="map">
     <div id="layer-switcher">
-      <input type="checkbox" name="layer" id="WorldMap" value="World_Map" checked>World Map<br>
-      <input type="checkbox" name="layer" id="World_map2" value="World_map2">World map2<br>
-      <input type="checkbox" name="layer" id="earnings_map" value="earnings_map">earnings_map<br>
+      <h2>Select ONE Layer</h2>
+      <input type="checkbox" name="layer" id="fortniteearnings2020" value="fortniteearnings2020">
+      <label for="fortniteearnings2020">Fortnite 2020</label>
+      <input type="checkbox" name="layer" id="fortniteearnings2021" value="fortniteearnings2021">
+      <label for="fortniteearnings2021">Fortnite 2021</label>
+      <input type="checkbox" name="layer" id="fortniteearnings2022" value="fortniteearnings2022">
+      <label for="fortniteearnings2022">Fortnite 2022</label>
+      <input type="checkbox" name="layer" id="fortniteearnings2023" value="fortniteearnings2023">
+      <label for="fortniteearnings2023">Fortnite 2023</label>
+      <input type="checkbox" name="layer" id="fortniteearnings2024" value="fortniteearnings2024">
+      <label for="fortniteearnings2024">Fortnite 2024</label>
+      <input type="checkbox" name="layer" id="lolearnings2020" value="lolearnings2020">
+      <label for="lolearnings2020">League of Legends 2020</label>
+      <input type="checkbox" name="layer" id="lolearnings2021" value="lolearnings2021">
+      <label for="lolearnings2021">League of Legends 2021</label>
+      <input type="checkbox" name="layer" id="lolearnings2022" value="lolearnings2022">
+      <label for="lolearnings2022">League of Legends 2022</label>
+      <input type="checkbox" name="layer" id="lolearnings2023" value="lolearnings2023">
+      <label for="lolearnings2023">League of Legends 2023</label>
+      <input type="checkbox" name="layer" id="lolearnings2024" value="lolearnings2024">
+      <label for="lolearnings2024">League of Legends 2024</label>
+      <input type="checkbox" name="layer" id="csgoearnings2020" value="csgoearnings2020">
+      <label for="csgoearnings2020">CS:GO 2020</label>
+      <input type="checkbox" name="layer" id="csgoearnings2021" value="csgoearnings2021">
+      <label for="csgoearnings2021">CS:GO 2021</label>
+      <input type="checkbox" name="layer" id="csgoearnings2022" value="csgoearnings2022">
+      <label for="csgoearnings2022">CS:GO 2022</label>
+      <input type="checkbox" name="layer" id="csgoearnings2023" value="csgoearnings2023">
+      <label for="csgoearnings2023">CS:GO 2023</label>
+      <input type="checkbox" name="layer" id="csgoearnings2024" value="csgoearnings2024">
+      <label for="csgoearnings2024">CS:GO 2024</label>
+      <input type="checkbox" name="layer" id="starcraftearnings2020" value="starcraftearnings2020">
+      <label for="starcraftearnings2020">Starcraft 2020</label>
+      <input type="checkbox" name="layer" id="starcraftearnings2021" value="starcraftearnings2021">
+      <label for="starcraftearnings2021">Starcraft 2021</label>
+      <input type="checkbox" name="layer" id="starcraftearnings2022" value="starcraftearnings2022">
+      <label for="starcraftearnings2022">Starcraft 2022</label>
+      <input type="checkbox" name="layer" id="starcraftearnings2023" value="starcraftearnings2023">
+      <label for="starcraftearnings2023">Starcraft 2023</label>
+      <input type="checkbox" name="layer" id="starcraftearnings2024" value="starcraftearnings2024">
+      <label for="starcraftearnings2024">Starcraft 2024</label>
+      <input type="checkbox" name="layer" id="dotaearnings2020" value="dotaearnings2020">
+      <label for="dotaearnings2020">Dota 2020</label>
+      <input type="checkbox" name="layer" id="dotaearnings2021" value="dotaearnings2021">
+      <label for="dotaearnings2021">Dota 2021</label>
+      <input type="checkbox" name="layer" id="dotaearnings2022" value="dotaearnings2022">
+      <label for="dotaearnings2022">Dota 2022</label>
+      <input type="checkbox" name="layer" id="dotaearnings2023" value="dotaearnings2023">
+      <label for="dotaearnings2023">Dota 2023</label>
+      <input type="checkbox" name="layer" id="dotaearnings2024" value="dotaearnings2024">
+      <label for="dotaearnings2024">Dota 2024</label>
     </div>
   </div>
   <div id="popup" class="ol-popup">
