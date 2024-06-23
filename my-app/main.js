@@ -29,7 +29,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:World_map' },
       serverType: 'geoserver',
     }),
@@ -40,7 +40,7 @@ const layers = [
   //FORTNITE
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2020' },
       serverType: 'geoserver',
     }),
@@ -50,7 +50,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2021' },
       serverType: 'geoserver',
     }),
@@ -60,7 +60,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2022' },
       serverType: 'geoserver',
     }),
@@ -70,7 +70,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2023' },
       serverType: 'geoserver',
     }),
@@ -80,7 +80,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2024' },
       serverType: 'geoserver',
     }),
@@ -91,7 +91,7 @@ const layers = [
   //LEAGUEOFLEGENDS
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:lolearnings2020' },
       serverType: 'geoserver',
     }),
@@ -101,7 +101,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:lolearnings2021' },
       serverType: 'geoserver',
     }),
@@ -111,7 +111,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:lolearnings2022' },
       serverType: 'geoserver',
     }),
@@ -121,7 +121,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:lolearnings2023' },
       serverType: 'geoserver',
     }),
@@ -131,7 +131,7 @@ const layers = [
   }),
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:lolearnings2024' },
       serverType: 'geoserver',
     }),
@@ -142,7 +142,7 @@ const layers = [
   //DOTA2
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:dotaearnings2020' },
       serverType: 'geoserver',
     }),
@@ -153,7 +153,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:dotaearnings2021' },
       serverType: 'geoserver',
     }),
@@ -164,7 +164,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:dotaearnings2022' },
       serverType: 'geoserver',
     }),
@@ -175,7 +175,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:dotaearnings2023' },
       serverType: 'geoserver',
     }),
@@ -186,7 +186,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:dotaearnings2024' },
       serverType: 'geoserver',
     }),
@@ -197,7 +197,7 @@ const layers = [
   //STARCRAFT
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2020' },
       serverType: 'geoserver',
     }),
@@ -208,7 +208,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2021' },
       serverType: 'geoserver',
     }),
@@ -219,7 +219,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2022' },
       serverType: 'geoserver',
     }),
@@ -230,7 +230,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2023' },
       serverType: 'geoserver',
     }),
@@ -241,7 +241,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2024' },
       serverType: 'geoserver',
     }),
@@ -252,7 +252,7 @@ const layers = [
   //CSGO
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:csgoearnings2020' },
       serverType: 'geoserver',
     }),
@@ -263,7 +263,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:csgoearnings2021' },
       serverType: 'geoserver',
     }),
@@ -274,7 +274,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:csgoearnings2022' },
       serverType: 'geoserver',
     }),
@@ -285,7 +285,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:csgoearnings2023' },
       serverType: 'geoserver',
     }),
@@ -296,7 +296,7 @@ const layers = [
 
   new TileLayer({
     source: new TileWMS({
-      url: 'http://52.169.92.25:8081/geoserver/EsportsEarnings/wms',
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
       params: { 'LAYERS': 'EsportsEarnings:csgoearnings2024' },
       serverType: 'geoserver',
     }),
