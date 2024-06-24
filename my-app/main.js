@@ -425,9 +425,9 @@ quizSubmit.addEventListener('click', function () {
   if (currentFeature) {
     const correctAnswer = currentFeature.get('country_name').toLowerCase();
     if (answer === correctAnswer) {
-      quizResult.innerHTML = 'Good job!';
+      quizResult.innerHTML = '<img src="https://cdn.frankerfacez.com/avatar/twitch/117494841" alt="Correct!" />';
     } else {
-      quizResult.innerHTML = 'Nope!';
+      quizResult.innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-22MReo5gEGY_XTi1tBbvA6QuRN762PYYmg&s" alt="Correct!" />';
     }
   }
 });
