@@ -1,18 +1,32 @@
-# OpenLayers + Vite
+# EsportsEarningsWebMap
 
-This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
+A WebGIS project that visualizes esports players’ earnings by country, game, and year.
 
-To get started, run the following (requires Node 14+):
+## 🚀 What it does
 
-    npx create-ol-app my-app --template vite
+- Aggregates player earnings data by **country**, **game**, and **year**
+- Joins the aggregates with world administrative boundaries
+- Renders an interactive map to explore earnings geographically
+- Supports switching between games / years to see how earnings evolve
 
-Then change into your new `my-app` directory and start a development server (available at http://localhost:5173):
+## 📁 Structure
 
-    cd my-app
-    npm start
+- `DATA/` — raw and processed data (CSV, Excel, GeoJSON, etc.)
+- `index.html & main.js` main web code — frontend, map logic, layers
+- `package.json` — project dependencies and scripts
 
-To generate a build ready for production:
+## 🛠 Setup & Run
 
-    npm run build
-
-Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+1. Clone the repo
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. start dev server:
+   ```bash
+   npm run dev
+   ```
+4. build for production:
+   ```bash
+   npm run build
+   ```
