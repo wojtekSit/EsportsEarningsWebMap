@@ -1,8 +1,8 @@
 import pandas as pd
 
 
-df1 = pd.read_excel('X:/WebGIS/EsportsEarnings/esports_data.xlsx')  
-df2 = pd.read_excel('X:/WebGIS/EsportsEarnings/world-administrative-boundaries.xlsx')  
+df1 = pd.read_csv("./EsportsEarningsData/esports_earnings_arena-of-valor_2020.csv")
+df2 = pd.read_excel("./ExcelData/world-administrative-boundaries.xlsx")  
 
 merged_df = pd.merge(df1, df2, on='Country', how='inner')
 
