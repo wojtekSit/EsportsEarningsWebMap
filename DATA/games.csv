@@ -1,0 +1,182 @@
+﻿id;country;earnings;player_count;game;earnings_per_game;percent_of_total
+1.;China;$326,680,417.46;9,305 Players;Dota 2;$86,327,573.44;26.43%
+2.;United States;$296,832,443.96;29,165 Players;Fortnite;$52,369,793.18;17.64%
+3.;Korea;$156,606,749.10;5,963 Players;League of Legends;$41,645,617.74;26.59%
+4.;Russian Federation;$95,915,603.47;5,834 Players;Dota 2;$42,506,496.56;44.32%
+5.;Brazil;$71,612,260.48;5,921 Players;Rainbow Six Siege;$13,311,887.49;18.59%
+6.;Denmark;$63,686,760.20;2,198 Players;Counter-Strike: Global Offensive;$23,097,482.88;36.27%
+7.;France;$61,141,686.25;6,584 Players;Counter-Strike: Global Offensive;$9,837,046.88;16.09%
+8.;Sweden;$58,353,629.97;3,350 Players;Dota 2;$19,451,066.03;33.33%
+9.;Germany;$52,657,943.93;6,900 Players;Dota 2;$11,761,651.15;22.34%
+10.;Canada;$50,156,417.06;4,344 Players;Fortnite;$9,174,879.96;18.29%
+11.;United Kingdom;$49,179,261.03;5,658 Players;Fortnite;$8,663,666.13;17.62%
+12.;Japan;$41,242,558.40;3,958 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$5,800,971.79;14.07%
+13.;Ukraine;$40,323,170.48;1,711 Players;Dota 2;$23,680,247.49;58.73%
+14.;Australia;$34,326,756.00;4,561 Players;Dota 2;$8,037,226.70;23.41%
+15.;Finland;$33,948,840.69;2,208 Players;Dota 2;$17,476,715.63;51.48%
+16.;Poland;$31,666,465.64;3,109 Players;Counter-Strike: Global Offensive;$8,379,347.80;26.46%
+17.;Thailand;$31,116,611.22;2,309 Players;Arena of Valor;$7,319,551.96;23.52%
+18.;Philippines;$26,731,678.12;1,906 Players;Dota 2;$12,061,324.48;45.12%
+19.;Malaysia;$23,219,567.88;1,714 Players;Dota 2;$14,376,781.97;61.92%
+20.;Taiwan, Republic of China;$22,972,520.83;1,720 Players;League of Legends;$5,975,442.71;26.01%
+21.;Indonesia;$21,737,571.54;2,644 Players;Free Fire;$5,096,526.21;23.45%
+22.;Viet Nam;$19,408,925.25;2,785 Players;Arena of Valor;$5,040,274.48;25.97%
+23.;Netherlands;$19,136,592.39;2,232 Players;Fortnite;$3,549,767.69;18.55%
+24.;Spain;$16,205,597.29;2,886 Players;League of Legends;$1,608,951.90;9.93%
+25.;Saudi Arabia;$15,287,907.65;1,660 Players;Rocket League;$4,124,753.77;26.98%
+26.;Turkey;$14,519,232.18;1,729 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$3,761,651.81;25.91%
+27.;Norway;$13,861,005.68;1,411 Players;Fortnite;$3,351,589.68;24.18%
+28.;Argentina;$10,810,730.77;1,570 Players;Fortnite;$2,642,240.03;24.44%
+29.;Mexico;$10,745,782.25;1,581 Players;Fortnite;$2,200,222.12;20.48%
+30.;Israel;$10,461,639.51;306 Players;Dota 2;$6,574,066.65;62.84%
+31.;Bulgaria;$10,456,834.71;449 Players;Dota 2;$6,116,714.25;58.49%
+32.;Peru;$9,730,018.21;725 Players;Dota 2;$8,034,846.28;82.58%
+33.;Jordan;$9,685,991.92;167 Players;Dota 2;$8,575,391.65;88.53%
+34.;Italy;$8,349,836.79;1,743 Players;StarCraft II;$876,283.92;10.49%
+35.;Singapore;$7,823,726.81;1,205 Players;Dota 2;$2,793,685.08;35.71%
+36.;Estonia;$7,822,277.18;366 Players;Dota 2;$4,347,152.40;55.57%
+37.;India;$7,772,236.53;1,626 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$3,843,448.97;49.45%
+38.;Pakistan;$7,098,885.90;439 Players;Dota 2;$4,785,715.26;67.42%
+39.;Czech Republic;$6,925,325.03;1,293 Players;Counter-Strike: Global Offensive;$1,271,161.95;18.36%
+40.;Kazakhstan;$6,657,567.29;843 Players;Counter-Strike: Global Offensive;$3,301,917.92;49.60%
+41.;Austria;$6,438,423.38;744 Players;Fortnite;$3,784,067.67;58.77%
+42.;Romania;$6,386,736.88;684 Players;Dota 2;$2,808,712.09;43.98%
+43.;Slovakia;$6,297,590.52;398 Players;Dota 2;$2,963,487.02;47.06%
+44.;Belgium;$6,000,602.51;983 Players;League of Legends;$1,049,436.82;17.49%
+45.;Portugal;$5,934,676.33;1,221 Players;Counter-Strike: Global Offensive;$981,914.68;16.55%
+46.;Mongolia;$5,933,314.22;325 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$2,837,996.17;47.83%
+47.;Lebanon;$5,768,871.31;123 Players;Dota 2;$4,992,703.41;86.55%
+48.;Hong Kong;$5,354,509.62;712 Players;Fortnite;$1,245,534.74;23.26%
+49.;Belarus;$5,185,964.65;436 Players;Dota 2;$2,291,314.61;44.18%
+50.;North Macedonia;$4,514,935.79;93 Players;Dota 2;$3,678,870.30;81.48%
+51.;Serbia;$4,440,130.68;443 Players;Fortnite;$2,080,453.98;46.86%
+52.;Bosnia and Herzegovina;$3,741,652.68;89 Players;Counter-Strike: Global Offensive;$2,080,849.26;55.61%
+53.;Chile;$3,739,453.15;915 Players;VALORANT;$905,418.32;24.21%
+54.;Switzerland;$3,474,825.45;728 Players;Fortnite;$2,046,265.97;58.89%
+55.;Slovenia;$3,410,942.44;186 Players;Fortnite;$2,124,945.80;62.30%
+56.;Latvia;$3,373,819.18;367 Players;Counter-Strike: Global Offensive;$1,414,586.90;41.93%
+57.;Egypt;$2,880,708.62;341 Players;Clash Royale;$974,709.66;33.84%
+58.;Greece;$2,815,733.30;550 Players;Dota 2;$1,277,589.85;45.37%
+59.;New Zealand;$2,690,191.19;473 Players;Fortnite;$781,506.10;29.05%
+60.;Lithuania;$2,645,115.37;429 Players;Counter-Strike: Global Offensive;$707,904.22;26.76%
+61.;Hungary;$2,548,145.66;777 Players;Counter-Strike: Global Offensive;$511,100.82;20.06%
+62.;South Africa;$2,342,498.17;846 Players;Counter-Strike: Global Offensive;$1,020,902.50;43.58%
+63.;Armenia;$2,261,055.86;55 Players;Dota 2;$1,406,297.55;62.20%
+64.;Croatia;$2,199,299.39;330 Players;League of Legends;$723,534.89;32.90%
+65.;Morocco;$2,056,313.91;222 Players;Rocket League;$968,325.71;47.09%
+66.;Macao;$1,819,458.11;37 Players;Dota 2;$1,336,593.81;73.46%
+67.;Nepal;$1,685,473.25;171 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$1,626,521.14;96.50%
+68.;Moldova;$1,648,296.89;82 Players;Dota 2;$1,250,106.81;75.84%
+69.;Myanmar;$1,562,988.38;270 Players;Mobile Legends: Bang Bang;$755,090.60;48.31%
+70.;Kyrgyzstan;$1,542,137.48;110 Players;Dota 2;$1,283,877.61;83.25%
+71.;Iraq;$1,535,170.96;158 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$1,200,851.54;78.22%
+72.;Ireland;$1,479,847.58;366 Players;Fortnite;$260,021.98;17.57%
+73.;Colombia;$1,420,879.48;424 Players;Free Fire;$213,374.07;15.02%
+74.;Uzbekistan;$1,266,185.35;207 Players;Dota 2;$512,051.16;40.44%
+75.;Dominican Republic;$1,234,928.01;133 Players;Street Fighter V;$268,835.20;21.77%
+76.;Puerto Rico;$1,115,602.24;155 Players;NBA 2K20;$250,000.00;22.41%
+77.;Uruguay;$1,058,114.39;170 Players;Counter-Strike: Global Offensive;$147,793.06;13.97%
+78.;United Arab Emirates;$1,054,113.80;278 Players;Street Fighter 6;$318,403.00;30.21%
+79.;Bolivia;$1,051,882.46;72 Players;Dota 2;$958,755.28;91.15%
+80.;Iran, Islamic Republic of;$880,340.77;170 Players;Chess.com;$379,426.81;43.10%
+81.;Cambodia;$876,527.13;242 Players;Mobile Legends: Bang Bang;$498,772.65;56.90%
+82.;Algeria;$846,981.35;135 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$234,443.68;27.68%
+83.;Kuwait;$774,823.07;214 Players;Rainbow Six Siege;$198,065.93;25.56%
+84.;Azerbaijan;$676,434.77;112 Players;chess24;$295,261.50;43.65%
+85.;Georgia;$674,674.06;123 Players;PLAYERUNKNOWN’S BATTLEGROUNDS;$344,693.10;51.09%
+86.;Cuba;$667,031.19;51 Players;Fortnite;$275,833.34;41.35%
+87.;Syrian Arab Republic;$573,387.51;64 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$300,824.11;52.46%
+88.;Kosovo;$553,451.17;72 Players;Counter-Strike: Global Offensive;$377,651.80;68.24%
+89.;Bahrain;$531,236.46;58 Players;Fortnite;$344,065.00;64.77%
+90.;Guatemala;$530,752.77;57 Players;Counter-Strike 2;$274,801.67;51.78%
+91.;Montenegro;$488,035.70;19 Players;Counter-Strike: Global Offensive;$386,656.12;79.23%
+92.;Venezuela;$469,517.61;204 Players;League of Legends;$60,648.11;12.92%
+93.;Tunisia;$421,066.06;116 Players;League of Legends;$165,174.37;39.23%
+94.;Laos;$357,908.04;109 Players;Dota 2;$276,831.63;77.35%
+95.;Ecuador;$316,056.05;85 Players;Free Fire;$153,083.34;48.44%
+96.;Tonga;$293,090.17;1 Player;Call of Duty: Warzone;$293,090.17;100.00%
+97.;Iceland;$282,739.68;183 Players;Overwatch;$102,284.60;36.18%
+98.;Bangladesh;$262,928.37;124 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$127,158.36;48.36%
+99.;Nicaragua;$225,650.28;13 Players;Dota 2;$141,516.18;62.71%
+100.;Costa Rica;$197,254.00;90 Players;League of Legends;$53,540.21;27.14%
+101.;Palestine, State of;$188,792.98;34 Players;League of Legends;$93,631.92;49.60%
+102.;Malta;$187,994.59;301 Players;FIFA 18;$38,778.70;20.63%
+103.;Senegal;$177,159.17;12 Players;FIFA 21;$63,958.34;36.10%
+104.;Panama;$141,747.61;65 Players;Fortnite;$77,940.00;54.99%
+105.;Albania;$141,037.50;68 Players;PLAYERUNKNOWN’S BATTLEGROUNDS;$44,105.94;31.27%
+106.;Luxembourg;$139,363.90;66 Players;Fortnite;$40,933.20;29.37%
+107.;Gibraltar;$129,663.11;2 Players;PLAYERUNKNOWN’S BATTLEGROUNDS;$126,324.51;97.43%
+108.;Qatar;$122,471.18;64 Players;Fortnite;$22,485.00;18.36%
+109.;Brunei Darussalam;$109,475.63;215 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$59,118.95;54.00%
+110.;Honduras;$102,812.29;30 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$66,731.21;64.91%
+111.;Oman;$101,006.91;39 Players;Fortnite;$87,245.00;86.38%
+112.;Yemen;$80,038.74;12 Players;Rocket League;$29,375.55;36.70%
+113.;Afghanistan;$79,784.20;9 Players;Call of Duty: Black Ops 4;$73,870.60;92.59%
+114.;Paraguay;$69,349.69;49 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$21,111.66;30.44%
+115.;Libyan Arab Jamahiriya;$66,120.30;17 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$54,833.39;82.93%
+116.;El Salvador;$43,332.19;19 Players;Pokemon Unite;$12,425.00;28.67%
+117.;Sri Lanka;$33,112.34;34 Players;Vainglory;$11,010.97;33.25%
+118.;Nigeria;$32,086.71;7 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$17,086.71;53.25%
+119.;Reunion;$31,855.23;24 Players;Rocket League;$31,855.23;100.00%
+120.;Cameroon;$29,399.20;1 Player;Street Fighter 6;$7,673.55;26.10%
+121.;Jamaica;$26,074.54;18 Players;Call of Duty: Warzone;$13,516.67;51.84%
+122.;Ethiopia;$23,669.95;1 Player;Overwatch;$23,669.95;100.00%
+123.;Mauritius;$21,523.33;29 Players;Call of Duty: Mobile;$7,333.33;34.07%
+124.;Trinidad and Tobago;$17,419.26;8 Players;Fortnite;$3,775.00;21.67%
+125.;French Polynesia;$16,773.21;3 Players;League of Legends;$15,027.58;89.59%
+126.;Greenland;$15,325.00;3 Players;Fortnite;$15,325.00;100.00%
+127.;Monaco;$12,764.54;5 Players;Chess.com;$7,812.50;61.20%
+128.;Côte D'Ivoire;$10,909.22;7 Players;Tekken 7;$7,200.00;66.00%
+129.;Faroe Islands;$9,849.49;27 Players;Counter-Strike: Global Offensive;$9,296.06;94.38%
+130.;Guadeloupe;$8,888.64;1 Player;FIFA 18;$8,330.00;93.72%
+131.;Guyana;$8,366.67;2 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$7,666.67;91.63%
+132.;Turkmenistan;$7,553.95;12 Players;Dota 2;$6,450.00;85.39%
+133.;Sudan;$6,455.84;4 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$6,355.84;98.45%
+134.;Fiji;$6,415.25;2 Players;Fortnite;$5,801.67;90.44%
+135.;Namibia;$6,221.59;7 Players;Counter-Strike: Global Offensive;$5,000.00;80.37%
+136.;Netherlands Antilles;$5,700.00;1 Player;Overwatch 2;$5,700.00;100.00%
+137.;Suriname;$5,655.04;3 Players;Pokemon Unite;$4,683.33;82.82%
+138.;Maldives;$5,421.54;9 Players;Rocket League;$5,300.00;97.76%
+139.;New Caledonia;$4,562.97;6 Players;Shadowverse;$3,300.00;72.32%
+140.;Tanzania;$4,500.00;1 Player;Magic: The Gathering Arena;$4,500.00;100.00%
+141.;Madagascar;$4,458.00;8 Players;Tekken 7;$2,400.00;53.84%
+142.;Jersey;$4,403.85;4 Players;Echo Arena;$3,453.33;78.42%
+143.;Zimbabwe;$4,360.00;2 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$4,260.00;97.71%
+144.;Isle of Man;$4,316.00;3 Players;iRacing.com;$2,786.00;64.55%
+145.;Åland Islands;$3,920.20;19 Players;Heroes of Newerth;$2,737.38;69.83%
+146.;Guernsey;$3,670.11;1 Player;Rocket League;$3,670.11;100.00%
+147.;Ghana;$3,649.89;6 Players;FIFA 19;$2,808.76;76.95%
+148.;Tajikistan;$3,475.00;1 Player;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$3,475.00;100.00%
+149.;Mozambique;$2,345.69;5 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$1,920.00;81.85%
+150.;Cyprus;$2,256.09;13 Players;Apex Legends;$1,269.99;56.29%
+151.;Kenya;$2,004.94;3 Players;Overwatch;$1,482.62;73.95%
+152.;Haiti;$1,900.00;1 Player;Fortnite;$1,900.00;100.00%
+153.;American Samoa;$1,750.00;1 Player;Rainbow Six Siege;$1,750.00;100.00%
+154.;Zambia;$1,635.44;2 Players;Mortal Kombat 11;$1,224.20;74.85%
+155.;Guam;$1,250.00;1 Player;Tekken 8;$1,250.00;100.00%
+156.;Angola;$1,200.00;3 Players;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$1,200.00;100.00%
+156.;Togo;$1,200.00;1 Player;Tekken 7;$1,200.00;100.00%
+158.;Andorra;$952.26;5 Players;Chess.com;$575.00;60.38%
+159.;Mauritania;$759.00;1 Player;Hearthstone;$759.00;100.00%
+160.;Wallis And Futuna;$600.00;1 Player;Diabotical;$600.00;100.00%
+161.;Gabon;$540.50;1 Player;Fortnite;$540.50;100.00%
+162.;Aruba;$518.74;5 Players;Apex Legends;$380.00;73.25%
+163.;Bermuda;$506.00;4 Players;Dota 2;$200.00;39.53%
+163.;Bermuda;$506.00;4 Players;Rocket League;$200.00;39.53%
+165.;Tuvalu;$500.00;1 Player;Fortnite;$500.00;100.00%
+166.;Botswana;$338.49;2 Players;VALORANT;$233.33;68.93%
+167.;Northern Mariana Islands;$300.00;1 Player;Quake III Arena;$300.00;100.00%
+167.;Niger;$300.00;3 Players;Rocket League;$300.00;100.00%
+169.;Bahamas;$263.00;1 Player;Yu-Gi-Oh! Duel Links;$263.00;100.00%
+170.;Belize;$250.00;1 Player;PLAYERUNKNOWN'S BATTLEGROUNDS Mobile;$250.00;100.00%
+171.;Dominica;$200.00;1 Player;Counter-Strike: Global Offensive;$200.00;100.00%
+172.;Uganda;$149.66;2 Players;Minecraft;$100.00;66.82%
+173.;Virgin Islands, U.S.;$100.00;1 Player;Rocket League;$100.00;100.00%
+174.;Niue;$65.97;1 Player;BlazBlue: Chronophantasma Extend;$33.46;50.72%
+175.;Liechtenstein;$56.47;2 Players;Call of Duty: Advanced Warfare;$28.47;50.42%
+176.;Saint Martin;$50.00;1 Player;Counter-Strike: Global Offensive;$50.00;100.00%
+177.;US Minor Outlying Islands;$30.00;1 Player;Brawlhalla;$30.00;100.00%
+178.;Antigua and Barbuda;$28.42;1 Player;Fortnite;$28.42;100.00%
+179.;Papua New Guinea;$25.00;1 Player;Diabotical;$25.00;100.00%
+180.;Saint Kitts and Nevis;$20.00;1 Player;Lichess;$20.00;100.00%
+181.;Saint Barthélemy;$7.63;1 Player;Tetr.io;$7.63;100.00%

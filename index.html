@@ -163,6 +163,18 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
+    #filter-container {
+      position: absolute;
+      top: 100px;
+      left: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
     #search-input {
       width: 200px;
       padding: 5px;
@@ -189,7 +201,11 @@
 
 <body>
   <div id="map-title">Esports Earnings</div>
-  <div id="map" class="map">
+  <div id="map" class="map"></div>
+  <div id="filter-container">
+    <select id="game-selector">
+      <option value="" disabled selected>Loading games...</option>
+    </select>
   </div>
   <div id="search-container">
     <input type="text" id="search-input" placeholder="Search for a player">
@@ -208,24 +224,8 @@
       <label for="Satellite">pretty satellite</label>
     </div>
     <div class="layer-item">
-      <input type="checkbox" name="layer" id="dotaearnings2020_geojson" value="dotaearnings2020_geojson">
-      <label for="dotaearnings2020_geojson">Dota 2020</label>
-    </div>
-    <div class="layer-item">
-      <input type="checkbox" name="layer" id="dotaearnings2021_geojson" value="dotaearnings2021_geojson">
-      <label for="dotaearnings2021_geojson">Dota 2021</label>
-    </div>
-    <div class="layer-item">
-      <input type="checkbox" name="layer" id="dotaearnings2022_geojson" value="dotaearnings2022_geojson">
-      <label for="dotaearnings2022_geojson">Dota 2022</label>
-    </div>
-    <div class="layer-item">
-      <input type="checkbox" name="layer" id="dotaearnings2023_geojson" value="dotaearnings2023_geojson">
-      <label for="dotaearnings2023_geojson">Dota 2023</label>
-    </div>
-    <div class="layer-item">
-      <input type="checkbox" name="layer" id="dotaearnings2024_geojson" value="dotaearnings2024_geojson">
-      <label for="dotaearnings2024_geojson">Dota 2024</label>
+      <input type="checkbox" name="layer" id="all_games" value="all_games">
+      <label for="all_games">all games</label>
     </div>
   </div>
   <div class="legend" id="legend">
